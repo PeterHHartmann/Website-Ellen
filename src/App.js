@@ -1,15 +1,29 @@
 
 import './sass/App.scss';
-import Header from './components/Header';
-import Content from './components/Content';
-import Footer from './components/Footer';
+import { Routes, Route } from "react-router-dom";
+import Layout from './components/Layout';
+import Frontpage from './components/pages/Frontpage';
+import About from './components/pages/About';
+import Offers from './components/pages/Offers';
+import Mindfulness from './components/pages/Mindfulness';
+import Pricing from './components/pages/Pricing';
+import DataProtection from './components/pages/DataProtection';
+import Contact from './components/pages/Contact';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Content/>
-      <Footer/>
+      <Routes>
+        <Route path='/' element={<Layout />}>
+          <Route path='/' element={<Frontpage/>}/>
+          <Route path='om' element={<About/>}/>
+          <Route path='tilbud' element={<Offers/>}/>
+          <Route path='mindfulness-og-compassion' element={<Mindfulness/>}/>
+          <Route path='priser-og-betingelser' element={<Pricing/>}/>
+          <Route path='databeskyttelse' element={<DataProtection/>}/>
+          <Route path='kontakt' element={<Contact/>}/>
+        </Route>
+      </Routes>
     </div>
   );
 }

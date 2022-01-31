@@ -1,6 +1,8 @@
+import '../sass/Footer.scss';
+
 const Footer = () => {
     return (
-        <div>
+        <footer>
             <p>
                 <small>
                     Psykologisk praksis v/Ellen Boesen - Borupvang 3C - 2750 Ballerup - Tlf. 51846966 - ellenboesen@gmail.com - CVR 28644000
@@ -14,7 +16,7 @@ const Footer = () => {
             <p className='cookie-policy'>
                 Cookiespolitik: Der anvendes alene 'cookies' ad hensyn til tekniske formål. Ingen personlige oplysninger gemmes, og der indsamles ingen oplysninger.
             </p>
-        </div>
+        </footer>
     )
 }
 

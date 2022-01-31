@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #990000;
+    padding: .5em 1em;
+    border-radius: .5em;
+
+    > a {
+        color: white;
+        padding: 0.75em;
+        border-radius: .3em;
+        cursor: pointer;
+        text-decoration: none;
+
+        &:hover {
+            color: black;
+            background-color: white;
+            text-decoration: underline;
+        }
+
+        &.current {
+            color: black;
+            background-color: white;
+            text-decoration: none;
+        }
+    }
+
+}

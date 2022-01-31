@@ -1,0 +1,34 @@
+.current-page {
+    padding: 0 1em;
+}
+
+.page {
+    max-width: 850px;
+    margin: auto;
+
+    &.split {
+        display: grid;
+        grid-template-columns: 4fr 3fr;
+        gap: 1em;
+        margin: 0 1em;
+        max-width: none;
+    
+        .contact {
+            margin: 2em 0;
+        }
+    
+        .portrait {
+            margin: 1em 0;
+        }
+    }
+
+    .custom-li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+// .split-page {
+
+// }

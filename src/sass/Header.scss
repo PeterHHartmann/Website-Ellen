@@ -4,4 +4,9 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+
+    img {
+        width: 50%;
+        max-width: 460px;
+    }
 }
