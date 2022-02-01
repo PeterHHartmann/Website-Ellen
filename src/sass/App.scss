@@ -1,3 +1,5 @@
+@use './abstracts/mixin.scss' as mixin;
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -14,6 +16,11 @@ body {
     background-color: white;
     margin: 2em auto;
     padding: 0 5%;
+
+    @include mixin.xl {
+      padding: 0 1em;
+    }
+
     max-width: 1400px;
     height: 100%;
 }

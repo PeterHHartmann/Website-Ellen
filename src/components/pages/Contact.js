@@ -5,25 +5,21 @@ const Contact = () => {
         <main className='page split'>
             <div className='contact'>
                 <h1>Kontakt</h1>
-                <p>
+                <p className='underline'>
                     <u>Psykologisk Praksis</u>
                     <br/>
                     Borupvang 3C
                     <br/>
                     2750 Ballerup
-                    <br/>
-                    ______________________________________________
                 </p>
-                <p>
+                <p className='underline'>
                     Gode parkeringsmuligheder
                     <br/>
                     10 minutters gang fra tog- og busstationen
                     <br/>
                     Adgang for kørestolsbrugere
-                    <br/>
-                    ______________________________________________
                 </p>
-                <p>
+                <p className='underline'>
                     Tlf.: 51846966
                     <br/>
                     CVRnr.: 28644000

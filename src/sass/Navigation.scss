@@ -1,3 +1,5 @@
+@use './abstracts/mixin.scss' as mixin;
+
 nav {
     display: flex;
     flex-direction: row;
@@ -5,6 +7,11 @@ nav {
     background-color: #990000;
     padding: .5em 1em;
     border-radius: .5em;
+
+    @include mixin.md {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
     > a {
         color: white;
