@@ -99,13 +99,13 @@ const Pricing = () => {
                 <li>
                     <div className='custom-li'>
                         <p>Konsultation (for 50 minutter)</p>
-                        <p><b><u>kr. 419,57,-</u></b></p>
+                        <p><b><u>kr. 424,56,-</u></b></p>
                     </div>
                 </li>
                 <li>
                     <div className='custom-li'>
                         <p>og efterfølgende konsultationer (for 45 minutter)</p>
-                        <p><b><u>kr. 349,87,-</u></b></p>
+                        <p><b><u>kr. 353,72,-</u></b></p>
                     </div>
                 </li>
             </ol>
