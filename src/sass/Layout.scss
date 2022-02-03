@@ -1,3 +1,5 @@
+@use '../sass/abstracts/mixin.scss' as mixin;
+
 .current-page {
     padding: 0 1em;
 }
@@ -6,22 +8,55 @@
     max-width: 850px;
     margin: auto;
 
-    &.split {
+    &.front {
+
         display: grid;
         grid-template-columns: 4fr 3fr;
         gap: 1em;
-        margin: 0 1em;
+        margin-inline: 1em;
         max-width: none;
-    
-        .contact {
-            margin: 2em 0;
+
+        @include mixin.xl {
+            display: block;
         }
-    
+
+        @include mixin.sm {
+            margin: 0;
+        }
+
+
         .portrait {
-            margin: 1em 0;
+            display: flex;
+            height: fit-content;
+
+            img {                
+                margin: 1em auto;
+                max-width: 545px;
+                aspect-ratio:initial;
+            }
         }
+        
+
     }
 
+    &.contact {
+
+        display: grid;
+        grid-template-columns: 4fr 3fr;
+        max-width: none;
+    
+        .contact-text {
+            margin-block: 2em;
+            margin-inline: 1em;
+            max-width: 400px;
+
+            @include mixin.md {
+                margin-inline: 0;
+            }
+        }
+
+    }
+    
     .custom-li {
         display: flex;
         justify-content: space-between;
@@ -32,7 +67,3 @@
         box-shadow: 0 3px 3px -3px black;
     }
 }
-
-// .split-page {
-
-// }

@@ -2,8 +2,8 @@ import Flowers from '../../assets/flowers.jpg'
 
 const Contact = () => {
     return (
-        <main className='page split'>
-            <div className='contact'>
+        <main className='page contact'>
+            <div className='contact-text'>
                 <h1>Kontakt</h1>
                 <p className='underline'>
                     <u>Psykologisk Praksis</u>

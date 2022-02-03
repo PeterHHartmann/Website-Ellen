@@ -1,12 +1,14 @@
 @use './abstracts/mixin.scss' as mixin;
 
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     background-color: #990000;
     padding: .5em 1em;
     border-radius: .5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: .5em;
 
     @include mixin.md {
         flex-wrap: wrap;
@@ -14,11 +16,17 @@ nav {
     }
 
     > a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         color: white;
+        background: #990000;
         padding: 0.75em;
         border-radius: .3em;
         cursor: pointer;
         text-decoration: none;
+        // box-shadow: 3px 4px 5px -4px black;
+        white-space:pre-wrap;
 
         &:hover {
             color: black;

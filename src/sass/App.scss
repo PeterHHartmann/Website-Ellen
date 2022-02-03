@@ -14,11 +14,15 @@ body {
     flex-direction: column;
     justify-content: center;
     background-color: white;
-    margin: 2em auto;
+    margin: 1em auto;
     padding: 0 5%;
 
     @include mixin.xl {
       padding: 0 1em;
+    }
+
+    @include mixin.sm {
+      margin: .5em auto;
     }
 
     max-width: 1400px;

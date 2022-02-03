@@ -1,12 +1,12 @@
-import img_header1 from '../assets/psykologpraksis.png'
-import img_header2 from '../assets/dansk-psykolog-forening.png'
+import main_logo from '../assets/psykologpraksis.png'
+import dp_logo from '../assets/dp-logo.png'
 import '../sass/Header.scss'
 
 const Header = () => {
     return (
         <header>
-            <img src={img_header1} alt="Pyskologpraksis"/>
-            <img src={img_header2} alt="Dansk Psykolog Forening" />
+            <img src={main_logo} alt="Pyskologpraksis" className='logo'/>
+            <img src={dp_logo} alt="Dansk Psykolog Forening" className='dp-logo'/>
         </header>
     );
 }

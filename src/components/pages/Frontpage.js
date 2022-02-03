@@ -2,7 +2,7 @@ import Portrait from '../../assets/portrait.jpg'
 
 const Frontpage = () => {
     return (
-        <main className='page split'>
+        <main className='page front'>
             <div >
                 <p>
                     <b>LUKKET FOR TILGANG: </b>
@@ -39,8 +39,8 @@ const Frontpage = () => {
                     ). 
                 </p>
             </div>
-            <div>
-                <img className='portrait' src={Portrait} alt="portræt" width='100%'/>
+            <div className='portrait'>
+                <img src={Portrait} alt="portræt" width='100%'/>
             </div>
         </main>
     )

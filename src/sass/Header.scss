@@ -1,12 +1,27 @@
+@use '../sass/abstracts/mixin.scss' as mixin;
+
 header {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
+    margin: 0 0 .5em 0;
 
     img {
-        width: 50%;
-        max-width: 460px;
+        
+        &.logo {
+            width: 50%;
+            max-width: 460px;
+        }
+        
+        &.dp-logo {
+            width: 20%;
+            max-width: 460px;
+
+            @include mixin.md {
+                width: 30%;
+            }
+        }
     }
 }
