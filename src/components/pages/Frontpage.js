@@ -9,11 +9,11 @@ const Frontpage = () => {
                     <br/>
                     På grund af travlhed har jeg desværre lukket for tilgang på ubestemt tid. Jeg opererer ikke med venteliste.
                 </p>
-                <p>
+                {/* <p>
                     <b>CORONA:</b>
                     <br/>
                     Jeg overholder alle coronaforskrifter. Vi sidder med 2 meters afstand fra hinanden og jeg har håndsprit i både venteværelse og i klinikken. Jeg lufter ud efter hver samtale og spritter møbler af. Pr 29.11.21 skal du bære mundbind, når du kommer ind i klinikken. Jeg skal ligeledes bære mundbind.
-                </p>
+                </p> */}
                 <p>
                     <b>OM MIG:</b>
                     <br/>
