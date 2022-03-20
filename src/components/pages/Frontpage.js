@@ -7,7 +7,9 @@ const Frontpage = () => {
                 <p>
                     <b>LUKKET FOR TILGANG: </b>
                     <br/>
-                    På grund af travlhed har jeg desværre lukket for tilgang på ubestemt tid. Jeg opererer ikke med venteliste.
+                    På grund af travlhed har jeg desværre lukket for tilgang. <br/>
+                    For klienter uden henvisning og klienter der søger EMDR behandling, har jeg enkelte ledige tider. <br/>
+                    Jeg opererer ikke med venteliste.
                 </p>
                 {/* <p>
                     <b>CORONA:</b>
