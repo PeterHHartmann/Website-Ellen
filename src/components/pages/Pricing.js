@@ -91,7 +91,7 @@ const Pricing = () => {
                 <small>I modsat fald betales egenbetaling/fuld pris for den aftalte samtale.</small>
             </p>
             
-            <h2>Ved henvisning fra læge pr. 1. oktober 2019</h2>
+            <h2>Ved henvisning fra læge pr. 1. oktober 2023</h2>
             <p>
                 <u>Individuel konsultation med henvisning</u>
             </p>
@@ -99,13 +99,13 @@ const Pricing = () => {
                 <li>
                     <div className='custom-li'>
                         <p>Konsultation (for 50 minutter)</p>
-                        <p><b><u>kr. 424,56,-</u></b></p>
+                        <p><b><u>kr. 449,18,-</u></b></p>
                     </div>
                 </li>
                 <li>
                     <div className='custom-li'>
                         <p>og efterfølgende konsultationer (for 45 minutter)</p>
-                        <p><b><u>kr. 353,72,-</u></b></p>
+                        <p><b><u>kr. 374,54,-</u></b></p>
                     </div>
                 </li>
             </ol>
@@ -115,13 +115,13 @@ const Pricing = () => {
                 <li>
                     <div className='custom-li'>
                         <p>Individuel konsultation (for 50 minutter)</p>
-                        <p><b><u>kr. 1.200,00,-	</u></b></p>
+                        <p><b><u>kr. 1.300,00,-	</u></b></p>
                     </div>
                 </li>
                 <li>
                     <div className='custom-li'>
                         <p>2-personers konsultation (pr. person)</p>
-                        <p><b><u>kr. 900,00,-</u></b></p>
+                        <p><b><u>kr. 1000,00,-</u></b></p>
                     </div>
                 </li>
             </ul>
