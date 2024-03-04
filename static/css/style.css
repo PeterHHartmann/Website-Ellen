@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  margin: 1em auto;
+  padding: 0 5%;
+  max-width: 1400px;
+  height: 100%;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+@media (max-width: 1200px) {
+  body {
+    padding: 0 1em;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    margin: 0.5em auto;
+  }
+}
+
+.current-page {
+  padding: 0 1em;
+}
+
+.page {
+  max-width: 850px;
+  margin: auto;
+  min-height: 650px;
+}
+.page.front {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  gap: 1em;
+  margin-inline: 1em;
+  max-width: none;
+}
+@media (max-width: 1200px) {
+  .page.front {
+    display: block;
+  }
+}
+@media (max-width: 576px) {
+  .page.front {
+    margin: 0;
+  }
+}
+.page.front .portrait {
+  display: flex;
+  height: fit-content;
+}
+.page.front .portrait img {
+  margin: 1em auto;
+  max-width: 545px;
+  aspect-ratio: initial;
+}
+.page.contact {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  max-width: none;
+}
+.page.contact .contact-text {
+  margin-block: 2em;
+  margin-inline: 1em;
+  max-width: 400px;
+}
+@media (max-width: 768px) {
+  .page.contact .contact-text {
+    margin-inline: 0;
+  }
+}
+.page .custom-li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page .underline {
+  box-shadow: 0 3px 3px -3px black;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0 0 0.5em 0;
+}
+header img.logo {
+  width: 50%;
+  max-width: 460px;
+}
+header img.dp-logo {
+  width: 20%;
+  max-width: 460px;
+}
+@media (max-width: 768px) {
+  header img.dp-logo {
+    width: 30%;
+  }
+}
+
+.cookie-policy {
+  color: gray;
+}
+
+nav {
+  background-color: #990000;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.5em;
+}
+@media (max-width: 768px) {
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+nav > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: #990000;
+  padding: 0.75em;
+  border-radius: 0.3em;
+  cursor: pointer;
+  text-decoration: none;
+  white-space: pre-wrap;
+  font-size: 18px;
+}
+nav > a > .test {
+  font-size: 12;
+}
+nav > a:hover {
+  color: black;
+  background-color: white;
+  text-decoration: underline;
+}
+nav > a.current {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
